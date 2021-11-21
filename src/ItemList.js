@@ -22,7 +22,7 @@ function ItemList(){
               <div class="mt-4 flex justify-around ">
                 <div>
                   <h3 class="text-sm font-semibold text-gray-700">
-                    <a href="#">
+                    <a href="/">
                       <span aria-hidden="true" class="absolute inset-0"></span>
                       Home-made Ghee
                     </a>
@@ -44,7 +44,7 @@ function ItemList(){
               <div class="mt-4 flex justify-around ">
                 <div>
                   <h3 class="text-sm font-semibold text-gray-700">
-                    <a href="#">
+                    <a href="/">
                       <span aria-hidden="true" class="absolute inset-0"></span>
                       Butter
                     </a>
@@ -65,7 +65,7 @@ function ItemList(){
               <div class="mt-4 flex justify-around">
                 <div>
                   <h3 class="text-sm font-semibold text-gray-700">
-                    <a href="#">
+                    <a href="/">
                       <span aria-hidden="true" class="absolute inset-0"></span>
                       Ice-Cream
                     </a>
@@ -86,7 +86,7 @@ function ItemList(){
               <div class="mt-4 flex justify-around">
                 <div>
                   <h3 class="text-sm font-semibold text-gray-700">
-                    <a href="#">
+                    <a href="/">
                       <span aria-hidden="true" class="absolute inset-0"></span>
                       Curd
                     </a>
@@ -110,7 +110,7 @@ function ItemList(){
               <div class="mt-4 flex justify-between">
                 <div>
                   <h3 class="text-sm text-gray-700">
-                    <a href="#">
+                    <a href="/">
                       <span aria-hidden="true" class="absolute inset-0"></span>
                       Basic Tee
                     </a>
@@ -132,7 +132,7 @@ function ItemList(){
               <div class="mt-4 flex justify-between">
                 <div>
                   <h3 class="text-sm text-gray-700">
-                    <a href="#">
+                    <a href="/">
                       <span aria-hidden="true" class="absolute inset-0"></span>
                       Basic Tee
                     </a>
@@ -153,7 +153,7 @@ function ItemList(){
               <div class="mt-4 flex justify-between">
                 <div>
                   <h3 class="text-sm text-gray-700">
-                    <a href="#">
+                    <a href="/">
                       <span aria-hidden="true" class="absolute inset-0"></span>
                       Basic Tee
                     </a>
@@ -174,7 +174,7 @@ function ItemList(){
               <div class="mt-4 flex justify-between">
                 <div>
                   <h3 class="text-sm text-gray-700">
-                    <a href="#">
+                    <a href="/">
                       <span aria-hidden="true" class="absolute inset-0"></span>
                       Basic Tee
                     </a>
