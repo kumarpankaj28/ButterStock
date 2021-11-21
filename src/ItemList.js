@@ -29,7 +29,7 @@ function ItemList(){
                   </h3>
                   <p class="mt-1 text-sm text-gray-500">50 gm to 5 ltr</p>
                 </div>
-                <p class="text-md font-medium text-green-600">INR 35</p>
+                <p class="text-md font-medium text-green-600">INR 00</p>
               </div>
             </div>
 
@@ -51,7 +51,7 @@ function ItemList(){
                   </h3>
                   <p class="mt-1 text-sm text-gray-500">weight</p>
                 </div>
-                <p class="text-md font-medium text-green-600">INR 35</p>
+                <p class="text-md font-medium text-green-600">INR 00</p>
               </div>
             </div>
             <div class="group relative shadow-xl p-5 rounded-md">
@@ -72,7 +72,7 @@ function ItemList(){
                   </h3>
                   <p class="mt-1 text-sm text-gray-500">weight</p>
                 </div>
-                <p class="text-md font-medium text-green-600">INR 35</p>
+                <p class="text-md font-medium text-green-600">INR 00</p>
               </div>
             </div>
             <div class="group relative shadow-xl p-5 rounded-md">
@@ -93,7 +93,7 @@ function ItemList(){
                   </h3>
                   <p class="mt-1 text-sm text-gray-500">Weight</p>
                 </div>
-                <p class="text-md font-medium text-green-600">INR 35</p>
+                <p class="text-md font-medium text-green-600">INR 00</p>
               </div>
             </div>
             {/* <!-- More products... --> */}
@@ -115,9 +115,9 @@ function ItemList(){
                       Basic Tee
                     </a>
                   </h3>
-                  <p class="mt-1 text-sm text-gray-500">Black</p>
+                  <p class="mt-1 text-sm text-gray-500">Weight</p>
                 </div>
-                <p class="text-sm font-medium text-gray-900">$35</p>
+                <p class="text-md font-medium text-green-600">INR 00</p>
               </div>
             </div>
 
@@ -134,12 +134,12 @@ function ItemList(){
                   <h3 class="text-sm text-gray-700">
                     <a href="/">
                       <span aria-hidden="true" class="absolute inset-0"></span>
-                      Basic Tee
+                      Products
                     </a>
                   </h3>
-                  <p class="mt-1 text-sm text-gray-500">Black</p>
+                  <p class="mt-1 text-sm text-gray-500">Weightht</p>
                 </div>
-                <p class="text-sm font-medium text-gray-900">$35</p>
+                <p class="text-md font-medium text-green-600">INR 00</p>
               </div>
             </div>
             <div class="group relative shadow-xl p-5 rounded-md">
@@ -155,12 +155,12 @@ function ItemList(){
                   <h3 class="text-sm text-gray-700">
                     <a href="/">
                       <span aria-hidden="true" class="absolute inset-0"></span>
-                      Basic Tee
+                      Products
                     </a>
                   </h3>
-                  <p class="mt-1 text-sm text-gray-500">Black</p>
+                  <p class="mt-1 text-sm text-gray-500">Weight</p>
                 </div>
-                <p class="text-sm font-medium text-gray-900">$35</p>
+                <p class="text-md font-medium text-gray-900">INR 00</p>
               </div>
             </div>
             <div class="group relative shadow-xl p-5 rounded-md">
