@@ -1,0 +1,54 @@
+.backgd{
+    background-image: url(./images/butter88.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    width: 100%;
+    padding: 15%;
+    
+}
+
+.img220{
+    max-width: 550px;
+    max-height: 600px;
+}
+
+/* navbar stickey */
+.nvbar{
+    position: sticky;
+    top: 0;
+}
+
+/* shopcatagory css  */
+
+.box1{
+    background-image: url(./images/iceam1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    box-shadow: inset 0px -90px 50px 20px rgba(0, 0, 0,0.9), inset 0px 0px 0px 0px rgba(0, 0, 0,0.0);
+}
+
+.box2{
+    background-image: url(./images/icream4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    box-shadow: inset 0px -90px 50px 20px rgba(0, 0, 0,0.9), inset 0px 0px 0px 0px rgba(0, 0, 0,0.0);
+
+}
+.box3{
+    background-image: url(./images/milk1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    box-shadow: inset 0px -90px 50px 20px rgba(0, 0, 0,0.9), inset 0px 0px 0px 0px rgba(0, 0, 0,0.0);
+}
+
+.box4{
+    background-image: url(./images/ghee3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    box-shadow: inset 0px -90px 50px 20px rgba(0, 0, 0,0.9), inset 0px 0px 0px 0px rgba(0, 0, 0,0.0);
+}
