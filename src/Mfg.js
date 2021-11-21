@@ -5,10 +5,10 @@ function Mfg() {
     <div>
             <h1 className="text-3xl flex justify-center  py-4">How Our Products Are Made ?</h1>
         <div className="md:block hidden  ">
-            <img className="" src={require("./images/Web_1920_–_2.png").default} />
+            <img  alt="this is img" src={require("./images/Web_1920_–_2.png").default} />
         </div>
         <div className="block md:hidden ">
-        <img className="" src={require("./images/iPhone_XR_XS_Max_11_–_1.png").default} />
+        <img  alt="this is img" src={require("./images/iPhone_XR_XS_Max_11_–_1.png").default} />
 
         </div>
         

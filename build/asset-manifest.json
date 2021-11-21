@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.197ab9e3.chunk.css",
+    "main.js": "/static/js/main.fc56cddb.chunk.js",
+    "main.js.map": "/static/js/main.fc56cddb.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d13a6fa3.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d13a6fa3.js.map",
+    "static/js/2.e467fc41.chunk.js": "/static/js/2.e467fc41.chunk.js",
+    "static/js/2.e467fc41.chunk.js.map": "/static/js/2.e467fc41.chunk.js.map",
+    "static/js/3.5905549c.chunk.js": "/static/js/3.5905549c.chunk.js",
+    "static/js/3.5905549c.chunk.js.map": "/static/js/3.5905549c.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.197ab9e3.chunk.css.map": "/static/css/main.197ab9e3.chunk.css.map",
+    "static/js/2.e467fc41.chunk.js.LICENSE.txt": "/static/js/2.e467fc41.chunk.js.LICENSE.txt",
+    "static/media/Web_1920_–_2.png": "/static/media/Web_1920_–_2.90668cec.png",
+    "static/media/butter1.jpg": "/static/media/butter1.fb56fbc9.jpg",
+    "static/media/butter2.png": "/static/media/butter2.cff1585e.png",
+    "static/media/butter6.jpg": "/static/media/butter6.c6fff9b7.jpg",
+    "static/media/Banner.css": "/static/media/milk1.de01dbb5.jpg",
+    "static/media/cow2.jpg": "/static/media/cow2.bf1fd429.jpg",
+    "static/media/iPhone_XR_XS_Max_11_–_1.png": "/static/media/iPhone_XR_XS_Max_11_–_1.c0c8ff9d.png",
+    "static/media/kk220.png": "/static/media/kk220.c03f25bc.png",
+    "static/media/kk500.png": "/static/media/kk500.ec68c41f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d13a6fa3.js",
+    "static/js/2.e467fc41.chunk.js",
+    "static/css/main.197ab9e3.chunk.css",
+    "static/js/main.fc56cddb.chunk.js"
+  ]
+}
