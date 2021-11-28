@@ -1,7 +1,7 @@
 import React from "react";
 import Products from "./Products";
 
-function ItemList(){
+function ItemListInHome(){
     return(
         <div>
             {/* Start of item list section */}
@@ -10,9 +10,6 @@ function ItemList(){
           <h2 class="text-3xl font-bold tracking-tight text-gray-900">
             Our Products
           </h2>
-        <Products/>
-        <Products/>
-        <Products/>
         <Products/>
         
         </div>
@@ -23,4 +20,4 @@ function ItemList(){
 
 }
 
-export default ItemList; 
+export default ItemListInHome; 

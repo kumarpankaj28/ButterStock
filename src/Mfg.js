@@ -2,7 +2,7 @@ import React from "react";
 
 function Mfg() {
   return (
-    <div>
+    <div className="w-full">
             <h1 className="text-3xl flex justify-center  py-4">How Our Products Are Made ?</h1>
         <div className="md:block hidden  ">
             <img  alt="this is img" src={require("./images/Web_1920_–_2.png").default} />
@@ -14,7 +14,7 @@ function Mfg() {
         
        
 
-      <div class="container mx-auto flex px-5 py-8 md:flex-row flex-col items-center bg-gray-100">
+      <div class=" w-full mx-auto flex px-5 py-8 md:flex-row flex-col items-center bg-gray-100">
         
 
         <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center ">

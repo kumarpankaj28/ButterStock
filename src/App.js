@@ -4,6 +4,7 @@ import {  Route } from "react-router-dom";
 import Services from "./Services";
 import About from "./About";
 import Contact from "./Contact";
+import Login from "./Login";
 
 function App(){
     return (
@@ -13,6 +14,7 @@ function App(){
             <Route path="/services"><Services/></Route>
             <Route path="/about"><About/> </Route>
             <Route path="/contact"><Contact/></Route>
+            <Route path="/login"><Login/></Route>
 
         </div>
     )

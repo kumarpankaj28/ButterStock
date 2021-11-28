@@ -1,10 +1,14 @@
-import React from "react";
- import { Link } from "react-router-dom";
+import React,{useState} from "react";
+import { Link } from "react-router-dom";
+
 import './Banner.css'
  
 
 // const btn = document.querySelector("button.mobile-menu-button");
-// const menu = document.querySelector(".mobile-menu");
+// const menu = document.getElementById("menuMobile");
+ 
+
+ 
 
 // btn.addEventListener("click", () => {
 // 	menu.classList.toggle("hidden");
@@ -13,6 +17,11 @@ import './Banner.css'
 
 
 function NavBar(){
+	const[isOpen,setOpen]=useState(true);
+	function navShow(){
+		setOpen(!isOpen)
+	   	
+	}
     return(
 
 		<div>
@@ -22,7 +31,7 @@ function NavBar(){
 				<div className="flex justify-between">
 					<div className="flex space-x-7">
 						<div>
-							<Link  to="/home" className="flex items-center py-4 px-2 text-red-700 font-semibold text-2xl ">
+							<Link to  ="/home" className="flex items-center py-4 px-2 text-red-700 font-semibold text-2xl ">
                             {/* <img className="h-8 object-scale-down" src={require('./images/kimmus-kitchen.png').default}  /> */}
 							ButterStock
 							</Link>
@@ -34,12 +43,18 @@ function NavBar(){
 							<Link to="contact" className="py-4 px-2 text-gray-500 font-semibold hover:text-red-700 transition duration-300">Contact Us</Link>
 						</div>
 					</div>
-					<div className="hidden md:flex items-center space-x-3 ">
-						<a href="/" className="py-2 px-2 font-medium text-gray-500 rounded hover:bg-red-700 hover:text-white transition duration-300">Log In</a>
-						<a href="/" className="py-2 px-2 font-medium text-white bg-red-700 rounded hover:bg-red-400 transition duration-300">Register</a>
+
+					<div className="hidden md:flex items-center ">
+					
 					</div>
+					<div className="hidden md:flex  items-center space-x-3 ">
+						<Link to="login" className="py-2 px-2 font-medium text-gray-500 rounded hover:bg-red-700 hover:text-white transition duration-300">Log In</Link>
+						<Link to="login" className="py-2 px-2 font-medium text-white bg-red-700 rounded hover:bg-red-400 transition duration-300">Register</Link>
+						<span className="pl-6"> <i className="far fa-user text-2xl rounded-full hover:text-red-800  "></i></span>
+					</div>
+					
 					<div className="md:hidden flex items-center">
-						<button className="outline-none mobile-menu-button">
+						<button onClick={navShow} className="outline-none mobile-menu-button">
 						<svg className=" w-6 h-6 text-gray-500 hover:text-red-700 "
 							x-show="!showMenu"
 							fill="none"
@@ -55,17 +70,24 @@ function NavBar(){
 					</div>
 				</div>
 			</div>
-			<div className="hidden mobile-menu">
+			{/* <div id="menuMobile" className={classNames("md:hidden",{ isOpen ?"hidden":null}}> */}
+			<div id="menuMobile" className="md:hidden">
+				<div className={isOpen ?"hidden":null}>
 				<ul className="">
-					<li className="active"><a href="index.html" className="block text-sm px-2 py-4 text-white bg-red-700 font-semibold">Home</a></li>
-					<li><a href="services.js" className="block text-sm px-2 py-4 hover:bg-red-700 transition duration-300">Services</a></li>
-					<li><a href="#about" className="block text-sm px-2 py-4 hover:bg-red-700 transition duration-300">About</a></li>
-					<li><a href="#contact" className="block text-sm px-2 py-4 hover:bg-red-700 transition duration-300">Contact Us</a></li>
+					<li><Link to="/" className="block text-sm px-2 py-4 text-gray-500 hover:bg-red-700 font-semibold">Home</Link></li>
+					<li><Link to="services" className="block text-sm px-2 py-4 text-gray-500 hover:bg-red-700 transition duration-300">Services</Link></li>
+					<li><Link to="about" className="block text-sm px-2 py-4 text-gray-500 hover:bg-red-700 transition duration-300">About</Link></li>
+					<li><Link to="contact" className="block text-sm px-2 py-4 text-gray-500 hover:bg-red-700 transition duration-300">Contact Us</Link></li>
+					<div className=" md:flex items-center space-x-3 py-4  justify-center ">
+						<Link to="login" className="py-2 px-2 font-medium text-gray-500 rounded hover:bg-red-700 hover:text-white transition duration-300">Log In</Link>
+						<Link to="login" className="py-2 px-2 font-medium text-white bg-red-700 rounded hover:bg-red-400 transition duration-300">Register</Link>
+					</div>	
 				</ul>
+				</div>
 			</div>
 			
 		</nav>
-        </div>
+     </div>
 	</div>
 		
     )

@@ -1,4 +1,5 @@
 import React from "react";
+import FormInput from "./FormInput";
 import NavBar from "./NavBar";
 import TopNav from "./TopNav";
 
@@ -7,6 +8,7 @@ function Contact(){
         <div>
             <TopNav/>
             <NavBar/>
+            <FormInput/>
         </div>
     );
 }

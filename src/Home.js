@@ -4,7 +4,8 @@ import NavBar from "./NavBar";
 import TopNav from "./TopNav";
 import Mfg from "./Mfg"
 import ShopCategory from "./ShopCategory";
-import ItemList from "./ItemList";
+import ViewAll from "./ViewAll";
+import ItemListInHome from "./ItemListInHome";
 
 function Home(){
     return(
@@ -14,7 +15,8 @@ function Home(){
             <Banner/>
             <Mfg/>
             <ShopCategory/>
-            <ItemList/>
+            <ItemListInHome/>
+            <ViewAll/>
 
         </div>
 
